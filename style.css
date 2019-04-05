@@ -1,4 +1,4 @@
-body {
+.container {
 	width: 75%;
 	margin: auto;
 }
@@ -8,6 +8,15 @@ nav {
 	display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 2em;
+}
+
+.stripes {
+	color: white;
+	height: 100vh;
+    background: -webkit-linear-gradient(75deg, rgba(117,54,205), rgba(117,54,205) 30%, rgba(116,78,212) 30%, rgba(116,78,212) 70%, rgba(116,114,220) 70%, rgba(116,114,220) 90%, white 90%, white 100%);
+    background: -o-linear-gradient(75deg, rgba(117,54,205), rgba(117,54,205) 30%, rgba(116,78,212) 30%, rgba(116,78,212) 70%, rgba(116,114,220) 70%, rgba(116,114,220) 90%, white 90%, white 100%);
+    background: linear-gradient(165deg, rgba(117,54,205), rgba(117,54,205) 30%, rgba(116,78,212) 30%, rgba(116,78,212) 70%, rgba(116,114,220) 70%, rgba(116,114,220) 90%, white 90%, white 100%);;
 }
 
 nav h5, ul {
@@ -21,6 +30,18 @@ ul {
 }
 
 ul li {
-	margin-right: 1em;
     margin-left: 1em;
-    }
+}
+
+.nav-item {
+	border: none;
+	color: white;
+	padding: .6em 1em;
+	border-radius: .2em;
+	background-color: transparent;
+}
+
+#support {
+	background-color: rgb(128,204,150);
+	padding: .6em 2em;
+}
