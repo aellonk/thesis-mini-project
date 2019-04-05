@@ -161,7 +161,7 @@ button {
 }
 
 .flex-item {
-	width: 24em;
+	width: 49%;
 	height: 8em;
 	border-radius: .2em;
 	border: 1px solid rgb(241,243,247);
@@ -199,4 +199,48 @@ li.flex-item p {
 
 #cloud {
 	background-image: url("cloud.png");
+}
+
+.contact-button {
+	background-color: white;
+	box-shadow: 1px 2px #f3f3f3;;
+	color: black;
+}
+
+#last-call-to-action h3:nth-child(2) {
+	margin-top: 0;
+}
+
+#last-call-to-action h3:nth-child(1) {
+	margin-bottom: 0.3em;
+}
+
+#last-call-buttons {
+	margin-top: 2em;
+}
+
+footer {
+	background-color: rgb(116,114,220);
+	color: white;
+}
+
+footer ul {
+	flex-direction: column;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+address {
+	font-style: normal;
+}
+
+footer h6 {
+	margin-block-start: 0;
+    margin-block-end: 1em;
+}
+
+footer div {
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+	font-size: .6em;
 }
