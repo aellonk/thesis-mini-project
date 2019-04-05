@@ -34,16 +34,12 @@ ul li {
 }
 
 .nav-item {
-	border: none;
-	color: white;
 	padding: .6em 1em;
-	border-radius: .2em;
 	background-color: transparent;
 }
 
 #support {
 	background-color: rgb(128,204,150);
-	padding: .6em 2em;
 }
 
 header {
@@ -79,6 +75,7 @@ input[type=submit] {
   	margin: 8px 0;
   	display: inline-block;
 	border-radius: 7px;
+	border: 1px solid rgb(128,204,150);
 	color: white;
 }
 
@@ -87,7 +84,6 @@ span.highlight-text {
 }
 
 .bottom-center {
-	text-transform: uppercase;
 	position: absolute;
     top: 80%;
     left: 50%;
@@ -102,8 +98,47 @@ span.highlight-text {
       width: 4em;
       height: 4em;
       background: rgb(128,204,150);
-      background-image: url("noun_down_arrow.svg");
+      background-image: url("down_arrow.svg");
       background-position: center;
-      color: white;
+      background-repeat: no-repeat;
       border-radius: 50%;
-    }
+      border: none;
+}
+
+#section-2 {
+	width: 35em;
+}
+
+.text-center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.text-upcase {
+	text-transform: uppercase;
+}
+
+.acct-button {
+	background-color: rgba(116,114,220);
+}
+
+button {
+	color: white;
+	border-radius: .2em;
+	border: none;
+	padding: .6em 2em;
+}
+
+#services {
+	margin-top: 4em;
+	width: 100%;
+
+}
+
+.line {
+	margin-top: .5em;
+    height: .15em;
+    width: 3em;
+    background: #000;
+    border-radius: 1em;
+}
