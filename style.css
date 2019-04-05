@@ -170,11 +170,33 @@ button {
 }
 
 li.flex-item h6 {
-	margin: 2em 1em 0 20px;
+	margin: 2.5em 1em 0 100px;
 
 }
 
 li.flex-item p {
-	font-size: .8em;
-	margin: .5em 1em 3em 20px;
+	font-size: .7em;
+	margin: .5em 1em 3em 100px;
+}
+
+.services-image {
+	background-repeat: no-repeat;
+	background-size: 5em;
+    background-position-y: center;
+}
+
+#web-hosting {
+	background-image: url("webhosting.png");
+}
+
+#resllers {
+	background-image: url("resellers.png");
+}
+
+#vps {
+	background-image: url("vps.png");
+}
+
+#cloud {
+	background-image: url("cloud.png");
 }
