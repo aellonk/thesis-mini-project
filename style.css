@@ -129,7 +129,7 @@ span.highlight-text {
 
 button {
 	color: white;
-	border-radius: .2em;
+	border-radius: .7em;
 	border: none;
 	padding: .6em 2em;
 }
@@ -243,4 +243,9 @@ footer div {
 	margin-block-start: 1em;
     margin-block-end: 1em;
 	font-size: .6em;
+}
+
+li.social-icon a img {
+	height: 2em;
+	width: 2em;
 }
