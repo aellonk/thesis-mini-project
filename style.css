@@ -367,6 +367,10 @@ footer li#social div {
 /*mobile*/
 
 @media only screen and (min-device-width: 200px) and (max-device-width: 868px) and (-webkit-min-device-pixel-ratio: 2) {
+html, body {
+	overflow-x: hidden;
+}
+
 .container {
 	width: 100%;
 }
