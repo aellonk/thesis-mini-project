@@ -136,7 +136,7 @@ span.highlight-text {
       width: 3em;
       height: 3em;
       background: rgb(128,204,150);
-      background-image: url("down_arrow.svg");
+      background-image: url("assets/down_arrow.svg");
       background-position: center;
       background-repeat: no-repeat;
       border-radius: 50%;
@@ -235,19 +235,19 @@ li.flex-item p {
 }
 
 #web-hosting {
-	background-image: url("webhosting.png");
+	background-image: url("assets/webhosting.png");
 }
 
 #resllers {
-	background-image: url("resellers.png");
+	background-image: url("assets/resellers.png");
 }
 
 #vps {
-	background-image: url("vps.png");
+	background-image: url("assets/vps.png");
 }
 
 #cloud {
-	background-image: url("cloud.png");
+	background-image: url("assets/cloud.png");
 }
 
 .contact-button {
