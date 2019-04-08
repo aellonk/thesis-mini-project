@@ -364,9 +364,15 @@ footer li#social div {
 
 }
 
+/*mobile*/
+
 @media only screen and (min-device-width: 200px) and (max-device-width: 868px) and (-webkit-min-device-pixel-ratio: 2) {
 .container {
 	width: 100%;
+}
+
+h1 {
+	font-size: 2em;
 }
 
 #landing li button {
@@ -402,7 +408,7 @@ footer li#social div {
 }
 
 footer li {
-	
+	width: 50%;
 	margin: 0 auto;
 	padding-top: 5%;
 }
