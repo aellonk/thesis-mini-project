@@ -99,10 +99,6 @@ input[type=text] {
   font-size: .8em;
 }
 
-input[type=text]:focus {
-	outline: none;
-}
-
 input[type=submit] {
 	width: 22%;
 	background-color: rgb(128,204,150);
