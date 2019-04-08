@@ -364,6 +364,50 @@ footer li#social div {
 
 }
 
+@media only screen and (min-device-width: 200px) and (max-device-width: 868px) {
+	.container {
+	width: 100%;
+}
+
+.flex-item {
+	width: 100%;
+	margin: 1%;
+}
+
+#landing h5 {
+	text-align: center;
+    width: 100%;
+}
+
+#landing ul {
+	margin: 0 auto;
+}
+
+#last-call-to-action li {
+	width: 100%;
+	text-align: center;
+}
+
+#last-call-buttons {
+     margin-top: 0; 
+     margin-bottom: 2%;
+}
+
+footer li {
+	
+	margin: 0 auto;
+	padding-top: 5%;
+}
+
+footer div {
+	margin-block-start: 0;
+}
+
+footer li#social div {
+	margin: 0 auto;
+}
+
+}
 /* ----------- iPhone 5, 5S, 5C and 5SE, 6, 6s,7,8 ----------- */
 /*@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
 	button#support:hover {
